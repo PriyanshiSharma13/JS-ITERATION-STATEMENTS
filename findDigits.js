@@ -5,11 +5,11 @@
 
 const Find_Digits = (N) => 
 {
-	  let result = 0;
+	  let count = 0;
   while (N > 0) {
     N = Math.floor(N / 10);
-    result ++;
+    count ++;
   }
-  return result;
+  return count;
 }
 console.log(Find_Digits(1234));
